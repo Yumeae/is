@@ -4,7 +4,7 @@ export const SITE: Site = {
   website: "https://is.yuum.me", // replace this with your deployed domain
   author: "yumeu",
   desc: "A simple Cybersecurity Enthusiast's Blog",
-  title: "Island - is.yuum.me",
+  title: "YumeIsland",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 3,
