@@ -1,6 +1,17 @@
 media:
   input: public
   output: /
+
+actions:
+- name: deploy
+  label: Deploy to Cloudflare
+  workflow: deploy.yml
+  ref: main
+  confirm:
+    title: 部署到 Cloudflare Workers?
+    message: 将构建站点并部署到 Cloudflare Workers。
+    button: Deploy
+
 content:
   - name: posts
     label: Posts
