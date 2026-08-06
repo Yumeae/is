@@ -12,7 +12,7 @@ actions:
     message: 将构建站点并部署到 Cloudflare Workers。
     button: Deploy
 
-content:
+content:home
   - name: posts
     label: Posts
     type: collection
